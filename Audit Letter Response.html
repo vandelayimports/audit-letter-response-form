@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Audit Letter Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="img/logo.png">
+      <h1>Audit Letter Response Form</h1>
+      <div>
+        <form id="formOne">
+          <div class="form-group">
+            <label for="auditfirm">Name of Audit Firm</label>
+            <input id="auditfirm" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="date1">Date on Audit Request Letter (in month date, year format)</label>
+            <input id="date1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="client1">Name of representative from business or entity</label>
+            <input id="client1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="title">Title of representative from business or entity</label>
+            <input id="title" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="company1">Name of business or entity</label>
+            <input id="company1" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn">Do my job for me!</button>
+        </form>
+      </div>
+
+      <div id="auditletter">
+        <h1>Audit Letter Response:</h1>
+        <p><span class="auditfirm"></span></p>
+        <p></p>
+
+        <p>By letter dated <span class="date1"></span>, which we recieved on <span class="date2"></span> <span class="client1"></span>, <span class="title1"></span>, <span class="company1"></span> requested that we furnish certain information to you in connection with your examination of the financial statements of <span class="business "></span> .</p>
+      </div>
+    </div>
+  </body>
+</html>
